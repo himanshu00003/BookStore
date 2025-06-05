@@ -1,9 +1,13 @@
-import React from 'react'
-import Navbar from './Components/Navbar'
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Banner from "./Components/Banner";
 function App() {
-  return (<>
-    <Navbar/>
-  </>)
+  return (
+    <>
+      <Navbar />
+      <Banner />
+    </>
+  );
 }
 
-export default App
+export default App;
